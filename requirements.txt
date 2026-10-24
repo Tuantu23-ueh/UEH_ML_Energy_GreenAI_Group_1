@@ -1,0 +1,7 @@
+* **Mục đích:** Khai báo các thư viện Python bắt buộc với phiên bản ổn định nhằm đảm bảo tính nhất quán của môi trường thực thi trên Google Colab giữa các thành viên.
+* **Các thư viện chính:** `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `openpyxl`, `scipy`.
+* **Lưu ý triển khai:** 
+  * Chạy lệnh `!pip install -r requirements.txt` ở đầu mỗi file Colab (nếu môi trường chưa sẵn sàng).
+  * Không tự ý cài đặt thêm thư viện ngoài danh mục khi chưa thống nhất với nhóm.
+
+---
