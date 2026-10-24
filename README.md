@@ -1,4 +1,4 @@
-# ⚡ Building Energy Load Forecasting & Anomaly Detection (Green AI)
+# Building Energy Load Forecasting & Anomaly Detection (Green AI)
 
 > **Môn học:** Học máy căn bản (Machine Learning) — Trường Đại học Kinh tế TP.HCM (UEH)  
 > **Bộ dữ liệu:** Building Data Genome 2 (BDG2 Dataset) — 12 Tòa nhà Thương mại/Giáo dục  
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 1. Giới thiệu Đề tài (Project Overview)
+## 1. Giới thiệu Đề tài (Project Overview)
 
 Dự án nghiên cứu này tập trung vào bài toán quản lý năng lượng thông minh trong các tòa nhà sử dụng dữ liệu chuỗi thời gian BDG2, hướng tới phương châm **Green AI** (cân bằng giữa độ chính xác và chi phí tính toán). Nghiên cứu được đóng gói thành **02 Bài báo khoa học**:
 
@@ -21,7 +21,7 @@ Dự án nghiên cứu này tập trung vào bài toán quản lý năng lượn
 
 ---
 
-## 👥 2. Phân công Nhân sự & Sub-teams
+## 2. Phân công Nhân sự & Sub-teams
 
 | Sub-team | Thành viên | Trách nhiệm chính |
 | :--- | :--- | :--- |
