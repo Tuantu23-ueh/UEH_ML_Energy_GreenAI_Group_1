@@ -30,3 +30,19 @@ Dự án nghiên cứu này tập trung vào bài toán quản lý năng lượn
 | **Sub-team 3: Writing & Lead** | **Tú (Lead) & Nguyên** | • Quản trị chung, khởi tạo Drive/GitHub, lập tiến độ.<br>• Soạn thảo Proposal & Bài báo theo mẫu chuẩn (`PaperID 581`).<br>• Kiểm tra tính liêm chính khoa học & chuẩn hóa trích dẫn APA. |
 
 ---
+
+## 📁 3. Cấu trúc Thư mục Dự án (Repository Layout)
+
+```text
+UEH_ML_Energy_GreenAI/
+├── README.md                           # File hướng dẫn tổng quan & quy trình làm việc
+├── .gitignore                          # Cấu hình tự động bỏ qua các file tạm Python/Colab
+├── requirements.txt                    # Danh sách thư viện Python bắt buộc
+├── notebooks/                          # Thư mục chứa các Jupyter Notebook (.ipynb)
+│   ├── 01_EDA_Preprocessing.ipynb      # Tiền xử lý dữ liệu & EDA (Phương & Tiên)
+│   ├── 02_Paper1_Regression.ipynb       # Thực nghiệm Hồi quy Paper 1 (Huy & Đức)
+│   └── 03_Paper2_Anomaly_Detection.ipynb# Thực nghiệm Bất thường Paper 2 (Huy & Đức)
+└── src/                                # Mã nguồn Python tái sử dụng (.py)
+    ├── __init__.py
+    ├── data_loader.py                  # Module đọc & lọc 12 tòa nhà BDG2
+    └── feature_engineering.py          # Module trích xuất Lag Features (t-1, t-24...)
